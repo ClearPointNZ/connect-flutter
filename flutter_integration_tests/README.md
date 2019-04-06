@@ -1,0 +1,25 @@
+== Flutter sample "Counter" app and integration tests examples with BDD/Gherkin/Cucumber
+
+For help getting started with Flutter, view our online
+[documentation](https://flutter.io/).
+
+Prerequisites:
+
+* Flutter SDK
+
+* Dart SDK
+
+This folder contains app code and test examples
+
+Test examples located in test_driver folder and contains the following:
+`widget_test.dart` - Flutter widget test
+`app_test.dart` - Flutter integration test
+`gherkin_test.dart` - Flutter and Gherkin wrapper BDD/Cucumber style integration test
+
+To run flutter integration tests:
+1. Launch iOS or Android  simulator
+2. Run from command line `flutter drive --target=test_driver/app.dart`
+
+To run Flutter and Gherkin BDD integration tests:
+1. Launch iOS or Android  simulator
+2. Run from command line dart test_driver/gherkin_test.dart
