@@ -16,6 +16,7 @@ Future<void> main() {
     // ..hooks = [HookSteps()]
     ..stepDefinitions = [
       TapButtonNTimesStep(),
+      IexpectCounterToBe()
     ]
     ..customStepParameterDefinitions = []
     ..restartAppBetweenScenarios = true
