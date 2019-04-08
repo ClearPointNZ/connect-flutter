@@ -13,8 +13,6 @@ This folder contains app code and test examples
 
 Test examples located in test_driver folder and contains the following:
 
-`widget_test.dart` - Flutter widget test
-
 `app_test.dart` - Flutter integration test
 
 `gherkin_test.dart` - Flutter and Gherkin wrapper BDD/Cucumber style integration test
@@ -30,3 +28,7 @@ To run Flutter and Gherkin BDD integration tests:
 1. Launch iOS or Android  simulator
 
 2. Run from command line dart test_driver/gherkin_test.dart
+
+* Watch the video for more details: 
+
+  https://www.youtube.com/watch?v=J58qi2ZP-xY&t=62s
