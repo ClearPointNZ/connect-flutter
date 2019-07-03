@@ -1,0 +1,5 @@
+user_credentials:
+  username: "fluttertester"
+  password: "pass"
+
+api: "http://someapi"

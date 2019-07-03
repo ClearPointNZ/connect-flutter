@@ -26,6 +26,8 @@ dependencies:
   ogurets: ^3.1.1
 
   ogurets_flutter: ^1.1.1
+  rxdart: 0.22.0
+
 
 dev_dependencies:
   flutter_test:
