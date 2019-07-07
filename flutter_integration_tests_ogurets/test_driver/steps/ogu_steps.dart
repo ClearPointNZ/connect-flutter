@@ -13,9 +13,7 @@ class ogu_steps {
   void iExpectTheToBe(String input1, String input2) async {
       final locator = find.byValueKey(input1);
       var text = await _world.driver.getText(locator, timeout: Duration(seconds: 2));
-      if (text != input2) {
-        throw new Exception("${input2} was not ${text}");
-      }
+   assert(input2 == text, 'Counter should be $input2 but was $text');
     }
 
 
