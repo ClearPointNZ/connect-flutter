@@ -25,7 +25,7 @@ dependencies:
 
   ogurets: ^3.1.1
 
-  ogurets_flutter: ^1.1.1
+  ogurets_flutter: ^1.2.1
   rxdart: 0.22.0
 
 

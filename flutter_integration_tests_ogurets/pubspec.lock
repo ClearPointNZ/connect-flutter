@@ -50,6 +50,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.14.11"
+  commandline_splitter:
+    dependency: transitive
+    description:
+      name: commandline_splitter
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.5.2"
   convert:
     dependency: transitive
     description:
@@ -251,7 +258,7 @@ packages:
       name: ogurets_flutter
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.1"
+    version: "1.2.1"
   package_config:
     dependency: transitive
     description:

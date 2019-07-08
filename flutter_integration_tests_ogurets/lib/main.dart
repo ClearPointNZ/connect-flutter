@@ -42,6 +42,7 @@ class MyHomePage extends StatelessWidget {
                       ),
                       Text(
                         '${snapshot.data}',
+                        key: Key('counter'),
                         style: Theme.of(context).textTheme.display1,
                       )
                     ]);
@@ -61,9 +62,9 @@ class MyHomePage extends StatelessWidget {
           FloatingActionButton(
             // Provide a Key to this the button. This allows us to find this
             // specific button and tap it inside the test suite.
-            key: Key('Decrement'),
+            key: Key('decrement'),
             onPressed: () => bloc.counterDec(),
-            tooltip: 'Increment',
+            tooltip: 'decrement',
             child: Icon(Icons.remove),
           ),
         ],

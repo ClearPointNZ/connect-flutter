@@ -6,7 +6,7 @@ import 'package:rxdart/rxdart.dart' as rxdart;
 class CounterBloc {
   int _counter = 0;
 
-  int _counter1 = 1;
+  //int _counter1 = 1;
 
 
   final _applicationStream = rxdart.BehaviorSubject<int>();
@@ -15,7 +15,7 @@ class CounterBloc {
 
   //constructor
   CounterBloc() {
-    _applicationStream.add(_counter1);
+  //  _applicationStream.add(_counter1);
     _applicationStream.add(_counter);
   }
 
