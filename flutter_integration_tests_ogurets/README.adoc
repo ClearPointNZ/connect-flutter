@@ -1,4 +1,4 @@
-== Flutter sample "Counter" app and integration tests examples with BDD/Gherkin/Cucumber
+== Flutter sample "Counter" app and integration tests examples with Ogurets - BDD/Gherkin/Cucumber
 
 For help getting started with Flutter, view our online
 [documentation](https://flutter.io/).
@@ -9,19 +9,16 @@ Prerequisites:
 
 * Dart SDK
 
-This folder contains app code and test examples
+* To create tests easily in IDE: Ogurets-Cucumber-Dart plugin is available in IntelliJ or Android Studio Beta v.3.5 or higher
+
+Mobile app code located in `lib` folder. This is where you can change locators (known as "Key" in Flutter)
 
 Test examples located in test_driver folder and contains the following:
 
-`app_test.dart` - Flutter integration test
+`/features/*.feature` - Flutter and Gherkin wrapper BDD/Cucumber style integration test driven by Ogurets plugin
 
-`/features/Counter.feature` - Flutter and Gherkin wrapper BDD/Cucumber style integration test driven by Ogurets plugin
+`/steps/*.dart` - step definitions or any other support code, e.g. cucumber hooks
 
-To run flutter integration tests:
-
-1. Launch iOS or Android  simulator
-
-2. Run from command line `flutter drive --target=test_driver/app.dart`
 
 To run Flutter and Gherkin BDD integration tests:
 
@@ -30,4 +27,7 @@ To run Flutter and Gherkin BDD integration tests:
 2. Right click on the feature file and run
 
 
-More on Ogurets  plugin: https://pub.dev/packages/ogurets/versions/3.1.1#-readme-tab-
+
+
+More on Ogurets  https://github.com/dart-ogurets/Ogurets
+
